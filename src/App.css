@@ -1,0 +1,48 @@
+.app__input > form > button {
+  display: none;
+}
+.app__input{
+  background-color: #276678;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+  margin: 10px;
+}
+.app__input > form{
+  flex: 0.5;
+}
+.app__input > form > input{
+  margin: 8px;
+  width: 98%;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  outline-style: none;
+  background-color: #f4f4f4;
+}
+.app__input > h4{
+  margin: 5px 0 15px 0;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 200;
+  color: white;
+}
+.app__accordion{
+  margin: 10px;
+}
+.app__accordion__info{
+  align-items: center;
+  width: 100%;
+}
+.app__accordion__infoLeft{
+  flex: 0.5;
+}
+.app__accordion__infoRight{
+  word-break: break-word;
+  width: 100%;
+  margin-top: 15px;
+  flex: 0.5;
+}
